@@ -1,0 +1,263 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<GetAirVisiblyDayResponse>
+			<GetAirVisiblyDayResult xmlns:a="http://schemas.datacontract.org/2004/07/AirDeploy.Model" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<a:CM_AirVisibly>
+					<a:dVisibly>14.5</a:dVisibly>
+					<a:strDtTime>2013-3-10 0:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl i:nil="true"/>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude i:nil="true"/>
+					<a:strLongitued i:nil="true"/>
+					<a:strMaxTime>2013-3-9 23:00:00</a:strMaxTime>
+					<a:strPName i:nil="true"/>
+					<a:strST>1</a:strST>
+					<a:strStCode>371000</a:strStCode>
+					<a:strStName>威海</a:strStName>
+					<a:strSubID i:nil="true"/>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>13.1</a:dVisibly>
+					<a:strDtTime>2013-3-10 0:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl i:nil="true"/>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude i:nil="true"/>
+					<a:strLongitued i:nil="true"/>
+					<a:strMaxTime>2013-3-9 23:00:00</a:strMaxTime>
+					<a:strPName i:nil="true"/>
+					<a:strST>1</a:strST>
+					<a:strStCode>370600</a:strStCode>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID i:nil="true"/>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>12.8</a:dVisibly>
+					<a:strDtTime>2013-3-10 0:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl i:nil="true"/>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude i:nil="true"/>
+					<a:strLongitued i:nil="true"/>
+					<a:strMaxTime>2013-3-9 23:00:00</a:strMaxTime>
+					<a:strPName i:nil="true"/>
+					<a:strST>1</a:strST>
+					<a:strStCode>370500</a:strStCode>
+					<a:strStName>东营</a:strStName>
+					<a:strSubID i:nil="true"/>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>10.6</a:dVisibly>
+					<a:strDtTime>2013-3-10 0:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl i:nil="true"/>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude i:nil="true"/>
+					<a:strLongitued i:nil="true"/>
+					<a:strMaxTime>2013-3-9 23:00:00</a:strMaxTime>
+					<a:strPName i:nil="true"/>
+					<a:strST>1</a:strST>
+					<a:strStCode>370400</a:strStCode>
+					<a:strStName>枣庄</a:strStName>
+					<a:strSubID i:nil="true"/>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>10.1</a:dVisibly>
+					<a:strDtTime>2013-3-10 0:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl i:nil="true"/>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude i:nil="true"/>
+					<a:strLongitued i:nil="true"/>
+					<a:strMaxTime>2013-3-9 23:00:00</a:strMaxTime>
+					<a:strPName i:nil="true"/>
+					<a:strST>1</a:strST>
+					<a:strStCode>371500</a:strStCode>
+					<a:strStName>聊城</a:strStName>
+					<a:strSubID i:nil="true"/>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>10.1</a:dVisibly>
+					<a:strDtTime>2013-3-10 0:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl i:nil="true"/>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude i:nil="true"/>
+					<a:strLongitued i:nil="true"/>
+					<a:strMaxTime>2013-3-9 23:00:00</a:strMaxTime>
+					<a:strPName i:nil="true"/>
+					<a:strST>1</a:strST>
+					<a:strStCode>370300</a:strStCode>
+					<a:strStName>淄博</a:strStName>
+					<a:strSubID i:nil="true"/>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>10</a:dVisibly>
+					<a:strDtTime>2013-3-10 0:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl i:nil="true"/>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude i:nil="true"/>
+					<a:strLongitued i:nil="true"/>
+					<a:strMaxTime>2013-3-9 23:00:00</a:strMaxTime>
+					<a:strPName i:nil="true"/>
+					<a:strST>0</a:strST>
+					<a:strStCode>371200</a:strStCode>
+					<a:strStName>莱芜</a:strStName>
+					<a:strSubID i:nil="true"/>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>9.7</a:dVisibly>
+					<a:strDtTime>2013-3-10 0:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl i:nil="true"/>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude i:nil="true"/>
+					<a:strLongitued i:nil="true"/>
+					<a:strMaxTime>2013-3-9 23:00:00</a:strMaxTime>
+					<a:strPName i:nil="true"/>
+					<a:strST>0</a:strST>
+					<a:strStCode>371700</a:strStCode>
+					<a:strStName>菏泽</a:strStName>
+					<a:strSubID i:nil="true"/>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>9.7</a:dVisibly>
+					<a:strDtTime>2013-3-10 0:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl i:nil="true"/>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude i:nil="true"/>
+					<a:strLongitued i:nil="true"/>
+					<a:strMaxTime>2013-3-9 23:00:00</a:strMaxTime>
+					<a:strPName i:nil="true"/>
+					<a:strST>0</a:strST>
+					<a:strStCode>370700</a:strStCode>
+					<a:strStName>潍坊</a:strStName>
+					<a:strSubID i:nil="true"/>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>9.5</a:dVisibly>
+					<a:strDtTime>2013-3-10 0:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl i:nil="true"/>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude i:nil="true"/>
+					<a:strLongitued i:nil="true"/>
+					<a:strMaxTime>2013-3-9 23:00:00</a:strMaxTime>
+					<a:strPName i:nil="true"/>
+					<a:strST>0</a:strST>
+					<a:strStCode>371400</a:strStCode>
+					<a:strStName>德州</a:strStName>
+					<a:strSubID i:nil="true"/>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>9.4</a:dVisibly>
+					<a:strDtTime>2013-3-10 0:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl i:nil="true"/>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude i:nil="true"/>
+					<a:strLongitued i:nil="true"/>
+					<a:strMaxTime>2013-3-9 23:00:00</a:strMaxTime>
+					<a:strPName i:nil="true"/>
+					<a:strST>0</a:strST>
+					<a:strStCode>370900</a:strStCode>
+					<a:strStName>泰安</a:strStName>
+					<a:strSubID i:nil="true"/>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>9.2</a:dVisibly>
+					<a:strDtTime>2013-3-10 0:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl i:nil="true"/>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude i:nil="true"/>
+					<a:strLongitued i:nil="true"/>
+					<a:strMaxTime>2013-3-9 23:00:00</a:strMaxTime>
+					<a:strPName i:nil="true"/>
+					<a:strST>0</a:strST>
+					<a:strStCode>371600</a:strStCode>
+					<a:strStName>滨州</a:strStName>
+					<a:strSubID i:nil="true"/>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>8.8</a:dVisibly>
+					<a:strDtTime>2013-3-10 0:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl i:nil="true"/>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude i:nil="true"/>
+					<a:strLongitued i:nil="true"/>
+					<a:strMaxTime>2013-3-9 23:00:00</a:strMaxTime>
+					<a:strPName i:nil="true"/>
+					<a:strST>0</a:strST>
+					<a:strStCode>370100</a:strStCode>
+					<a:strStName>济南</a:strStName>
+					<a:strSubID i:nil="true"/>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>7.8</a:dVisibly>
+					<a:strDtTime>2013-3-10 0:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl i:nil="true"/>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude i:nil="true"/>
+					<a:strLongitued i:nil="true"/>
+					<a:strMaxTime>2013-3-9 23:00:00</a:strMaxTime>
+					<a:strPName i:nil="true"/>
+					<a:strST>0</a:strST>
+					<a:strStCode>370800</a:strStCode>
+					<a:strStName>济宁</a:strStName>
+					<a:strSubID i:nil="true"/>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>7.3</a:dVisibly>
+					<a:strDtTime>2013-3-10 0:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl i:nil="true"/>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude i:nil="true"/>
+					<a:strLongitued i:nil="true"/>
+					<a:strMaxTime>2013-3-9 23:00:00</a:strMaxTime>
+					<a:strPName i:nil="true"/>
+					<a:strST>0</a:strST>
+					<a:strStCode>370200</a:strStCode>
+					<a:strStName>青岛</a:strStName>
+					<a:strSubID i:nil="true"/>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>6.3</a:dVisibly>
+					<a:strDtTime>2013-3-10 0:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl i:nil="true"/>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude i:nil="true"/>
+					<a:strLongitued i:nil="true"/>
+					<a:strMaxTime>2013-3-9 23:00:00</a:strMaxTime>
+					<a:strPName i:nil="true"/>
+					<a:strST>0</a:strST>
+					<a:strStCode>371100</a:strStCode>
+					<a:strStName>日照</a:strStName>
+					<a:strSubID i:nil="true"/>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>6.3</a:dVisibly>
+					<a:strDtTime>2013-3-10 0:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl i:nil="true"/>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude i:nil="true"/>
+					<a:strLongitued i:nil="true"/>
+					<a:strMaxTime>2013-3-9 23:00:00</a:strMaxTime>
+					<a:strPName i:nil="true"/>
+					<a:strST>0</a:strST>
+					<a:strStCode>371300</a:strStCode>
+					<a:strStName>临沂</a:strStName>
+					<a:strSubID i:nil="true"/>
+				</a:CM_AirVisibly>
+			</GetAirVisiblyDayResult>
+		</GetAirVisiblyDayResponse>
+	</s:Body>
+</s:Envelope>

@@ -1,0 +1,53 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<GetAirVisiblyHoursResponse>
+			<GetAirVisiblyHoursResult xmlns:a="http://schemas.datacontract.org/2004/07/AirDeploy.Model" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<a:CM_AirVisibly>
+					<a:dVisibly>38.1</a:dVisibly>
+					<a:strDtTime>2013-3-10 1:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl>023_20130310010038000.jpg</a:strImageUrl>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude>37.61333333</a:strLatitude>
+					<a:strLongitued>121.37194440</a:strLongitued>
+					<a:strMaxTime i:nil="true"/>
+					<a:strPName>轴承厂</a:strPName>
+					<a:strST i:nil="true"/>
+					<a:strStCode>370600</a:strStCode>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>31</a:strSubID>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>35.3</a:dVisibly>
+					<a:strDtTime>2013-3-10 1:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl>022_20130310000038000.jpg</a:strImageUrl>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude>37.61361111</a:strLatitude>
+					<a:strLongitued>121.31805560</a:strLongitued>
+					<a:strMaxTime i:nil="true"/>
+					<a:strPName>西郊化工站</a:strPName>
+					<a:strST i:nil="true"/>
+					<a:strStCode>370600</a:strStCode>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>32</a:strSubID>
+				</a:CM_AirVisibly>
+				<a:CM_AirVisibly>
+					<a:dVisibly>40</a:dVisibly>
+					<a:strDtTime>2013-3-10 1:00:00</a:strDtTime>
+					<a:strHumidity i:nil="true"/>
+					<a:strImageUrl>024_20130310010056000.jpg</a:strImageUrl>
+					<a:strItemDesc i:nil="true"/>
+					<a:strLatitude>37.59277778</a:strLatitude>
+					<a:strLongitued>121.35694440</a:strLongitued>
+					<a:strMaxTime i:nil="true"/>
+					<a:strPName>鲁东大学</a:strPName>
+					<a:strST i:nil="true"/>
+					<a:strStCode>370600</a:strStCode>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3983</a:strSubID>
+				</a:CM_AirVisibly>
+			</GetAirVisiblyHoursResult>
+		</GetAirVisiblyHoursResponse>
+	</s:Body>
+</s:Envelope>

@@ -1,0 +1,42 @@
+AirPollutants
+report_date date
+report_hour datetime
+poll_value
+poll_item_code
+poll_item_name
+hourly
+daliy
+sample_longitude
+sample_latitude
+area_code
+area_name
+city_code
+city_name
+
+AirQuality
+report_date date
+report_hour datetime
+aqi
+hourly
+daliy
+sample_longitude
+sample_latitude
+area_code
+area_name
+city_code
+city_name
+
+
+AirVisibily
+report_date date
+report_hour datetime
+visibily
+image_url
+hourly
+daliy
+sample_longitude
+sample_latitude
+area_code
+area_name
+city_code
+city_name

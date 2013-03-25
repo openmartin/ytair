@@ -1,0 +1,1262 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<GetAirDeployHoursResponse>
+			<GetAirDeployHoursResult xmlns:a="http://schemas.datacontract.org/2004/07/AirDeploy.Model" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.412</a:strHourAvg>
+					<a:strItemCode>106</a:strItemCode>
+					<a:strItemName>一氧化碳</a:strItemName>
+					<a:strLatitude>37.61333333</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.37194440</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>轴承厂</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>31</a:strSubID>
+					<a:strValueAvg> 0.979</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.038</a:strHourAvg>
+					<a:strItemCode>101</a:strItemCode>
+					<a:strItemName>二氧化硫</a:strItemName>
+					<a:strLatitude>37.61333333</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.37194440</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>轴承厂</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>31</a:strSubID>
+					<a:strValueAvg> 0.053</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.010</a:strHourAvg>
+					<a:strItemCode>141</a:strItemCode>
+					<a:strItemName>二氧化氮</a:strItemName>
+					<a:strLatitude>37.61333333</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.37194440</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>轴承厂</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>31</a:strSubID>
+					<a:strValueAvg> 0.022</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.066</a:strHourAvg>
+					<a:strItemCode>108</a:strItemCode>
+					<a:strItemName>臭氧</a:strItemName>
+					<a:strLatitude>37.61333333</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.37194440</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>轴承厂</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>31</a:strSubID>
+					<a:strValueAvg> 0.064</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.175</a:strHourAvg>
+					<a:strItemCode>107</a:strItemCode>
+					<a:strItemName>PM10</a:strItemName>
+					<a:strLatitude>37.61333333</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.37194440</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>轴承厂</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>31</a:strSubID>
+					<a:strValueAvg> 0.307</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.015</a:strHourAvg>
+					<a:strItemCode>132</a:strItemCode>
+					<a:strItemName>PM2.5</a:strItemName>
+					<a:strLatitude>37.61333333</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.37194440</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>轴承厂</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>31</a:strSubID>
+					<a:strValueAvg> 0.093</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.008</a:strHourAvg>
+					<a:strItemCode>141</a:strItemCode>
+					<a:strItemName>二氧化氮</a:strItemName>
+					<a:strLatitude>37.61361111</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.31805560</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>西郊化工站</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>32</a:strSubID>
+					<a:strValueAvg> 0.013</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.640</a:strHourAvg>
+					<a:strItemCode>106</a:strItemCode>
+					<a:strItemName>一氧化碳</a:strItemName>
+					<a:strLatitude>37.61361111</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.31805560</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>西郊化工站</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>32</a:strSubID>
+					<a:strValueAvg> 0.928</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.079</a:strHourAvg>
+					<a:strItemCode>108</a:strItemCode>
+					<a:strItemName>臭氧</a:strItemName>
+					<a:strLatitude>37.61361111</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.31805560</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>西郊化工站</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>32</a:strSubID>
+					<a:strValueAvg> 0.082</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.631</a:strHourAvg>
+					<a:strItemCode>107</a:strItemCode>
+					<a:strItemName>PM10</a:strItemName>
+					<a:strLatitude>37.61361111</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.31805560</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>西郊化工站</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>32</a:strSubID>
+					<a:strValueAvg> 0.441</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.026</a:strHourAvg>
+					<a:strItemCode>132</a:strItemCode>
+					<a:strItemName>PM2.5</a:strItemName>
+					<a:strLatitude>37.61361111</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.31805560</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>西郊化工站</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>32</a:strSubID>
+					<a:strValueAvg> 0.105</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.071</a:strHourAvg>
+					<a:strItemCode>101</a:strItemCode>
+					<a:strItemName>二氧化硫</a:strItemName>
+					<a:strLatitude>37.61361111</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.31805560</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>西郊化工站</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>32</a:strSubID>
+					<a:strValueAvg> 0.035</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.005</a:strHourAvg>
+					<a:strItemCode>101</a:strItemCode>
+					<a:strItemName>二氧化硫</a:strItemName>
+					<a:strLatitude>37.59277778</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.35694440</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>鲁东大学</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3983</a:strSubID>
+					<a:strValueAvg> 0.029</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.021</a:strHourAvg>
+					<a:strItemCode>141</a:strItemCode>
+					<a:strItemName>二氧化氮</a:strItemName>
+					<a:strLatitude>37.59277778</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.35694440</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>鲁东大学</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3983</a:strSubID>
+					<a:strValueAvg> 0.062</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.075</a:strHourAvg>
+					<a:strItemCode>108</a:strItemCode>
+					<a:strItemName>臭氧</a:strItemName>
+					<a:strLatitude>37.59277778</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.35694440</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>鲁东大学</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3983</a:strSubID>
+					<a:strValueAvg> 0.063</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.022</a:strHourAvg>
+					<a:strItemCode>132</a:strItemCode>
+					<a:strItemName>PM2.5</a:strItemName>
+					<a:strLatitude>37.59277778</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.35694440</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>鲁东大学</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3983</a:strSubID>
+					<a:strValueAvg> 0.092</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.141</a:strHourAvg>
+					<a:strItemCode>107</a:strItemCode>
+					<a:strItemName>PM10</a:strItemName>
+					<a:strLatitude>37.59277778</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.35694440</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>鲁东大学</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3983</a:strSubID>
+					<a:strValueAvg> 0.339</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>芝罘区</a:strAreaName>
+					<a:strHourAvg> 0.120</a:strHourAvg>
+					<a:strItemCode>106</a:strItemCode>
+					<a:strItemName>一氧化碳</a:strItemName>
+					<a:strLatitude>37.59277778</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.35694440</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>鲁东大学</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3983</a:strSubID>
+					<a:strValueAvg> 0.734</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>福山区</a:strAreaName>
+					<a:strHourAvg> 0.005</a:strHourAvg>
+					<a:strItemCode>101</a:strItemCode>
+					<a:strItemName>二氧化硫</a:strItemName>
+					<a:strLatitude>37.53666667</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.26111110</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>福山区监测站</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>35</a:strSubID>
+					<a:strValueAvg> 0.017</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>福山区</a:strAreaName>
+					<a:strHourAvg> 0.000</a:strHourAvg>
+					<a:strItemCode>141</a:strItemCode>
+					<a:strItemName>二氧化氮</a:strItemName>
+					<a:strLatitude>37.53666667</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.26111110</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>福山区监测站</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>35</a:strSubID>
+					<a:strValueAvg> 0.017</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>福山区</a:strAreaName>
+					<a:strHourAvg> 0.006</a:strHourAvg>
+					<a:strItemCode>107</a:strItemCode>
+					<a:strItemName>PM10</a:strItemName>
+					<a:strLatitude>37.53666667</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.26111110</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>福山区监测站</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>35</a:strSubID>
+					<a:strValueAvg> 0.074</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>福山区</a:strAreaName>
+					<a:strHourAvg> 0.022</a:strHourAvg>
+					<a:strItemCode>132</a:strItemCode>
+					<a:strItemName>PM2.5</a:strItemName>
+					<a:strLatitude>37.53666667</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.26111110</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>福山区监测站</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>35</a:strSubID>
+					<a:strValueAvg> 0.056</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>福山区</a:strAreaName>
+					<a:strHourAvg> 0.097</a:strHourAvg>
+					<a:strItemCode>108</a:strItemCode>
+					<a:strItemName>臭氧</a:strItemName>
+					<a:strLatitude>37.53666667</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.26111110</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>福山区监测站</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>35</a:strSubID>
+					<a:strValueAvg> 0.079</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>福山区</a:strAreaName>
+					<a:strHourAvg> 0.421</a:strHourAvg>
+					<a:strItemCode>106</a:strItemCode>
+					<a:strItemName>一氧化碳</a:strItemName>
+					<a:strLatitude>37.53666667</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.26111110</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>福山区监测站</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>35</a:strSubID>
+					<a:strValueAvg> 0.744</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>牟平区</a:strAreaName>
+					<a:strHourAvg> 0.003</a:strHourAvg>
+					<a:strItemCode>101</a:strItemCode>
+					<a:strItemName>二氧化硫</a:strItemName>
+					<a:strLatitude>37.45722222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.59527780</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>牟平区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>36</a:strSubID>
+					<a:strValueAvg> 0.040</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>牟平区</a:strAreaName>
+					<a:strHourAvg> 0.022</a:strHourAvg>
+					<a:strItemCode>132</a:strItemCode>
+					<a:strItemName>PM2.5</a:strItemName>
+					<a:strLatitude>37.45722222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.59527780</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>牟平区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>36</a:strSubID>
+					<a:strValueAvg> 0.103</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>牟平区</a:strAreaName>
+					<a:strHourAvg> 0.039</a:strHourAvg>
+					<a:strItemCode>107</a:strItemCode>
+					<a:strItemName>PM10</a:strItemName>
+					<a:strLatitude>37.45722222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.59527780</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>牟平区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>36</a:strSubID>
+					<a:strValueAvg> 0.146</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>牟平区</a:strAreaName>
+					<a:strHourAvg> 0.007</a:strHourAvg>
+					<a:strItemCode>141</a:strItemCode>
+					<a:strItemName>二氧化氮</a:strItemName>
+					<a:strLatitude>37.45722222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.59527780</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>牟平区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>36</a:strSubID>
+					<a:strValueAvg> 0.021</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>牟平区</a:strAreaName>
+					<a:strHourAvg> 0.098</a:strHourAvg>
+					<a:strItemCode>108</a:strItemCode>
+					<a:strItemName>臭氧</a:strItemName>
+					<a:strLatitude>37.45722222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.59527780</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>牟平区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>36</a:strSubID>
+					<a:strValueAvg> 0.094</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>牟平区</a:strAreaName>
+					<a:strHourAvg> 0.435</a:strHourAvg>
+					<a:strItemCode>106</a:strItemCode>
+					<a:strItemName>一氧化碳</a:strItemName>
+					<a:strLatitude>37.45722222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.59527780</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>牟平区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>36</a:strSubID>
+					<a:strValueAvg> 1.136</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.004</a:strHourAvg>
+					<a:strItemCode>101</a:strItemCode>
+					<a:strItemName>二氧化硫</a:strItemName>
+					<a:strLatitude>37.55222222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.44777780</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>莱山区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>34</a:strSubID>
+					<a:strValueAvg> 0.039</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.020</a:strHourAvg>
+					<a:strItemCode>132</a:strItemCode>
+					<a:strItemName>PM2.5</a:strItemName>
+					<a:strLatitude>37.55222222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.44777780</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>莱山区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>34</a:strSubID>
+					<a:strValueAvg> 0.094</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.261</a:strHourAvg>
+					<a:strItemCode>106</a:strItemCode>
+					<a:strItemName>一氧化碳</a:strItemName>
+					<a:strLatitude>37.55222222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.44777780</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>莱山区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>34</a:strSubID>
+					<a:strValueAvg> 0.842</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.003</a:strHourAvg>
+					<a:strItemCode>141</a:strItemCode>
+					<a:strItemName>二氧化氮</a:strItemName>
+					<a:strLatitude>37.55222222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.44777780</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>莱山区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>34</a:strSubID>
+					<a:strValueAvg> 0.025</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.088</a:strHourAvg>
+					<a:strItemCode>108</a:strItemCode>
+					<a:strItemName>臭氧</a:strItemName>
+					<a:strLatitude>37.55222222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.44777780</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>莱山区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>34</a:strSubID>
+					<a:strValueAvg> 0.083</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.093</a:strHourAvg>
+					<a:strItemCode>107</a:strItemCode>
+					<a:strItemName>PM10</a:strItemName>
+					<a:strLatitude>37.55222222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.44777780</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>莱山区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>34</a:strSubID>
+					<a:strValueAvg> 0.254</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.001</a:strHourAvg>
+					<a:strItemCode>101</a:strItemCode>
+					<a:strItemName>二氧化硫</a:strItemName>
+					<a:strLatitude>37.49722222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.41222220</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>莱山盛泉工业园</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3984</a:strSubID>
+					<a:strValueAvg> 0.046</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.061</a:strHourAvg>
+					<a:strItemCode>108</a:strItemCode>
+					<a:strItemName>臭氧</a:strItemName>
+					<a:strLatitude>37.49722222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.41222220</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>莱山盛泉工业园</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3984</a:strSubID>
+					<a:strValueAvg> 0.059</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.111</a:strHourAvg>
+					<a:strItemCode>107</a:strItemCode>
+					<a:strItemName>PM10</a:strItemName>
+					<a:strLatitude>37.49722222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.41222220</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>莱山盛泉工业园</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3984</a:strSubID>
+					<a:strValueAvg> 0.355</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.261</a:strHourAvg>
+					<a:strItemCode>106</a:strItemCode>
+					<a:strItemName>一氧化碳</a:strItemName>
+					<a:strLatitude>37.49722222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.41222220</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>莱山盛泉工业园</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3984</a:strSubID>
+					<a:strValueAvg> 0.862</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.015</a:strHourAvg>
+					<a:strItemCode>132</a:strItemCode>
+					<a:strItemName>PM2.5</a:strItemName>
+					<a:strLatitude>37.49722222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.41222220</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>莱山盛泉工业园</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3984</a:strSubID>
+					<a:strValueAvg> 0.107</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.000</a:strHourAvg>
+					<a:strItemCode>141</a:strItemCode>
+					<a:strItemName>二氧化氮</a:strItemName>
+					<a:strLatitude>37.49722222</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.41222220</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>莱山盛泉工业园</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3984</a:strSubID>
+					<a:strValueAvg> 0.033</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.014</a:strHourAvg>
+					<a:strItemCode>101</a:strItemCode>
+					<a:strItemName>二氧化硫</a:strItemName>
+					<a:strLatitude>37.49916667</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.51472220</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>中国农业大学</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3985</a:strSubID>
+					<a:strValueAvg> 0.056</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.008</a:strHourAvg>
+					<a:strItemCode>141</a:strItemCode>
+					<a:strItemName>二氧化氮</a:strItemName>
+					<a:strLatitude>37.49916667</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.51472220</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>中国农业大学</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3985</a:strSubID>
+					<a:strValueAvg> 0.027</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.233</a:strHourAvg>
+					<a:strItemCode>106</a:strItemCode>
+					<a:strItemName>一氧化碳</a:strItemName>
+					<a:strLatitude>37.49916667</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.51472220</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>中国农业大学</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3985</a:strSubID>
+					<a:strValueAvg> 0.793</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.014</a:strHourAvg>
+					<a:strItemCode>132</a:strItemCode>
+					<a:strItemName>PM2.5</a:strItemName>
+					<a:strLatitude>37.49916667</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.51472220</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>中国农业大学</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3985</a:strSubID>
+					<a:strValueAvg> 0.112</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.096</a:strHourAvg>
+					<a:strItemCode>108</a:strItemCode>
+					<a:strItemName>臭氧</a:strItemName>
+					<a:strLatitude>37.49916667</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.51472220</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>中国农业大学</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3985</a:strSubID>
+					<a:strValueAvg> 0.094</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>莱山区</a:strAreaName>
+					<a:strHourAvg> 0.140</a:strHourAvg>
+					<a:strItemCode>107</a:strItemCode>
+					<a:strItemName>PM10</a:strItemName>
+					<a:strLatitude>37.49916667</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.51472220</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>中国农业大学</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3985</a:strSubID>
+					<a:strValueAvg> 0.344</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.004</a:strHourAvg>
+					<a:strItemCode>101</a:strItemCode>
+					<a:strItemName>二氧化硫</a:strItemName>
+					<a:strLatitude>37.62388889</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.25138890</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>开发区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3982</a:strSubID>
+					<a:strValueAvg> 0.034</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.008</a:strHourAvg>
+					<a:strItemCode>141</a:strItemCode>
+					<a:strItemName>二氧化氮</a:strItemName>
+					<a:strLatitude>37.62388889</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.25138890</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>开发区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3982</a:strSubID>
+					<a:strValueAvg> 0.025</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.062</a:strHourAvg>
+					<a:strItemCode>108</a:strItemCode>
+					<a:strItemName>臭氧</a:strItemName>
+					<a:strLatitude>37.62388889</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.25138890</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>开发区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3982</a:strSubID>
+					<a:strValueAvg> 0.047</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.124</a:strHourAvg>
+					<a:strItemCode>107</a:strItemCode>
+					<a:strItemName>PM10</a:strItemName>
+					<a:strLatitude>37.62388889</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.25138890</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>开发区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3982</a:strSubID>
+					<a:strValueAvg> 0.248</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.027</a:strHourAvg>
+					<a:strItemCode>132</a:strItemCode>
+					<a:strItemName>PM2.5</a:strItemName>
+					<a:strLatitude>37.62388889</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.25138890</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>开发区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3982</a:strSubID>
+					<a:strValueAvg> 0.090</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.340</a:strHourAvg>
+					<a:strItemCode>106</a:strItemCode>
+					<a:strItemName>一氧化碳</a:strItemName>
+					<a:strLatitude>37.62388889</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.25138890</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>开发区环保局</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3982</a:strSubID>
+					<a:strValueAvg> 0.988</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.005</a:strHourAvg>
+					<a:strItemCode>101</a:strItemCode>
+					<a:strItemName>二氧化硫</a:strItemName>
+					<a:strLatitude>37.66111111</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.13833330</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>开发区B 区</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3986</a:strSubID>
+					<a:strValueAvg> 0.050</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.026</a:strHourAvg>
+					<a:strItemCode>141</a:strItemCode>
+					<a:strItemName>二氧化氮</a:strItemName>
+					<a:strLatitude>37.66111111</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.13833330</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>开发区B 区</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3986</a:strSubID>
+					<a:strValueAvg> 0.024</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.192</a:strHourAvg>
+					<a:strItemCode>106</a:strItemCode>
+					<a:strItemName>一氧化碳</a:strItemName>
+					<a:strLatitude>37.66111111</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.13833330</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>开发区B 区</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3986</a:strSubID>
+					<a:strValueAvg> 0.705</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.083</a:strHourAvg>
+					<a:strItemCode>108</a:strItemCode>
+					<a:strItemName>臭氧</a:strItemName>
+					<a:strLatitude>37.66111111</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.13833330</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>开发区B 区</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3986</a:strSubID>
+					<a:strValueAvg> 0.082</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.223</a:strHourAvg>
+					<a:strItemCode>107</a:strItemCode>
+					<a:strItemName>PM10</a:strItemName>
+					<a:strLatitude>37.66111111</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.13833330</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>开发区B 区</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3986</a:strSubID>
+					<a:strValueAvg> 0.294</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.019</a:strHourAvg>
+					<a:strItemCode>132</a:strItemCode>
+					<a:strItemName>PM2.5</a:strItemName>
+					<a:strLatitude>37.66111111</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.13833330</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>开发区B 区</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3986</a:strSubID>
+					<a:strValueAvg> 0.091</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.009</a:strHourAvg>
+					<a:strItemCode>101</a:strItemCode>
+					<a:strItemName>二氧化硫</a:strItemName>
+					<a:strLatitude>37.7275</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.05555560</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>大季家</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3987</a:strSubID>
+					<a:strValueAvg> 0.045</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.000</a:strHourAvg>
+					<a:strItemCode>141</a:strItemCode>
+					<a:strItemName>二氧化氮</a:strItemName>
+					<a:strLatitude>37.7275</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.05555560</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>大季家</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3987</a:strSubID>
+					<a:strValueAvg> 0.022</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.083</a:strHourAvg>
+					<a:strItemCode>106</a:strItemCode>
+					<a:strItemName>一氧化碳</a:strItemName>
+					<a:strLatitude>37.7275</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.05555560</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>大季家</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3987</a:strSubID>
+					<a:strValueAvg> 0.631</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.022</a:strHourAvg>
+					<a:strItemCode>132</a:strItemCode>
+					<a:strItemName>PM2.5</a:strItemName>
+					<a:strLatitude>37.7275</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.05555560</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>大季家</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3987</a:strSubID>
+					<a:strValueAvg> 0.108</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.000</a:strHourAvg>
+					<a:strItemCode>108</a:strItemCode>
+					<a:strItemName>臭氧</a:strItemName>
+					<a:strLatitude>37.7275</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.05555560</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>大季家</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3987</a:strSubID>
+					<a:strValueAvg> 0.002</a:strValueAvg>
+				</a:CM_AirDeploy>
+				<a:CM_AirDeploy>
+					<a:strAQI i:nil="true"/>
+					<a:strAreaCode>370600</a:strAreaCode>
+					<a:strAreaName>开发区</a:strAreaName>
+					<a:strHourAvg> 0.242</a:strHourAvg>
+					<a:strItemCode>107</a:strItemCode>
+					<a:strItemName>PM10</a:strItemName>
+					<a:strLatitude>37.7275</a:strLatitude>
+					<a:strLevel i:nil="true"/>
+					<a:strLongitued>121.05555560</a:strLongitued>
+					<a:strPCode i:nil="true"/>
+					<a:strPName>大季家</a:strPName>
+					<a:strPollutants i:nil="true"/>
+					<a:strSTA i:nil="true"/>
+					<a:strStCode i:nil="true"/>
+					<a:strStName>烟台</a:strStName>
+					<a:strSubID>3987</a:strSubID>
+					<a:strValueAvg> 0.297</a:strValueAvg>
+				</a:CM_AirDeploy>
+			</GetAirDeployHoursResult>
+		</GetAirDeployHoursResponse>
+	</s:Body>
+</s:Envelope>

@@ -1,0 +1,7 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<GetDateTimeResponse>
+			<GetDateTimeResult>2013-03-10T01:24:14</GetDateTimeResult>
+		</GetDateTimeResponse>
+	</s:Body>
+</s:Envelope>
