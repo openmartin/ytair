@@ -75,7 +75,10 @@ if __name__ == '__main__':
         ap.area_name = air_deploy_hour.PName
         ap.city_code = air_deploy_hour.AreaCode
         ap.city_name = air_deploy_hour.StName
-        ap.daily_avg = float(air_deploy_hour.ValueAvg)
+        try: #有可能为--
+            ap.daily_avg = float(air_deploy_hour.ValueAvg)
+        except:
+            ap.daily_avg = -1
         ap.save()
     
 #    TestAirQualityIndex.GetAirDeployAQI()

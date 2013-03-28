@@ -50,6 +50,19 @@ def get_access_token(code):
     userToken.expires_in = r.expires_in
     userToken.save()
 
+air_pollutants_dict = {'NO2':'141', 'PM2.5':'132', \
+                       'O3':'108', 'PM10':'107', \
+                       'CO':'106', 'SO2':'101'}
+
+def get_detail_AirPollutants(air_pollutants_list_hourly, air_pollutants_no):
+    #141 NO2, 132 PM2.5, 108 O3, 107 PM10, 106 CO, 101 SO2
+    for a in air_pollutants_list_hourly:
+        if a.poll_item_code == air_pollutants_no:
+            break
+        else:
+            pass
+        
+    return a.poll_value
 
 if __name__ == '__main__':
     get_authorize_url()
@@ -98,7 +111,7 @@ if __name__ == '__main__':
         print sample_lantitude
         print sample_longitude
         
-        weibo_template = u'#烟台##空气质量#采样点：$sample_locate，采样时间：$sample_time，空气质量$sample_aqi_des(AQI:$sample_aqi)，主要污染物为$sample_main_pollutants'
+        weibo_template = u'#烟台##空气质量#采样点：$sample_locate，采样时间：$sample_time，空气质量$sample_aqi_des(AQI:$sample_aqi)，主要污染物为$sample_main_pollutants。'
         td = dict()
         td['sample_locate'] = sample_locate
         td['sample_time'] = sample_time
@@ -108,14 +121,40 @@ if __name__ == '__main__':
         
         weibo_txt = Template(weibo_template).substitute(td)
         #print weibo_txt
+        
+        air_pollutants = AirPollutants.objects.filter(report_hour=report_hour, area_name=u'轴承厂', hourly='Y')
+        pollutants_concen_txt = ''
+        if len(air_pollutants) == 6:
+            so2_concen = get_detail_AirPollutants(air_pollutants, air_pollutants_dict['SO2'])*1000
+            no2_concen = get_detail_AirPollutants(air_pollutants, air_pollutants_dict['NO2'])*1000
+            pm10_concen = get_detail_AirPollutants(air_pollutants, air_pollutants_dict['PM10'])*1000
+            co_concen = get_detail_AirPollutants(air_pollutants, air_pollutants_dict['CO'])*1000
+            o3_concen = get_detail_AirPollutants(air_pollutants, air_pollutants_dict['O3'])*1000
+            pm25_concen = get_detail_AirPollutants(air_pollutants, air_pollutants_dict['PM2.5'])*1000
+            
+            pollutants_concen_template = u'各污染物浓度：二氧化硫(SO2)$so2_concenμg/m3、二氧化氮(NO2)$no2_concenμg/m3、可吸入颗粒物(PM10)$pm10_concenμg/m3、一氧化碳(CO)$co_concenμg/m3、臭氧(O3)$o3_concenμg/m3、细颗粒物(PM2.5)$pm25_concenμg/m3。'
+            
+            ts = dict()
+            ts['so2_concen'] = so2_concen
+            ts['no2_concen'] = no2_concen
+            ts['pm10_concen'] = pm10_concen
+            ts['co_concen'] = co_concen
+            ts['o3_concen'] = o3_concen
+            ts['pm25_concen'] = pm25_concen
+            
+            pollutants_concen_txt = Template(pollutants_concen_template).substitute(ts)
+            #print pollutants_concen_txt
+            
+        else:
+            pass
+        
+        weibo_txt = weibo_txt + pollutants_concen_txt
+        #print weibo_txt
+        
         result = client.statuses.upload.post(status=weibo_txt,
                                           #lat = sample_lantitude,
                                           #long = sample_longitude,
                                   pic=open(zcc_visibily.image_url, 'rb'))
-    
-
-#print client.statuses.upload.post(status=u'test weibo with picture',
-#                                  pic=open(''))
 
 
 

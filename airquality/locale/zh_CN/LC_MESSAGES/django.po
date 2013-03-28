@@ -73,7 +73,7 @@ msgstr "污染物名称"
 msgid "hourly"
 msgstr "小时平均值"
 
-msgid "daliy"
+msgid "daily"
 msgstr "日平均值"
 
 msgid "sample_longitude"

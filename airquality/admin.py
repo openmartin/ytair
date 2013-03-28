@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #from check_in.models import Person,Check,PlayCalender
-from airquality.models import AirPollutants, AirQuality, AirVisibily
+from airquality.models import AirPollutants, AirQuality, AirVisibily, UserToken
 from django.contrib import admin
 
 #class PersonAdmin(admin.ModelAdmin):
@@ -37,7 +37,7 @@ admin.site.register(AirPollutants, AirPollutantsAdmin)
 
 
 class AirQualityAdmin(admin.ModelAdmin):
-    fields = ('report_date', 'report_hour', 'aqi',\
+    fields = ('report_date', 'report_hour', 'aqi', 'level', 'level_str', 'main_pollutants',\
               'hourly','daily', 'sample_longitude', 'sample_latitude', 'area_code',\
               'area_name', 'city_code', 'city_name')
     list_display = ('report_date', 'report_hour', 'aqi', 'area_name')
@@ -56,4 +56,12 @@ class AirVisibilyAdmin(admin.ModelAdmin):
     list_filter = ('hourly','daily')
 
 admin.site.register(AirVisibily, AirVisibilyAdmin)
+
+
+class UserTokenAdmin(admin.ModelAdmin):
+    fields = ('uid', 'access_token', 'expires_in', 'remind_in')
+    list_display = ('uid', 'access_token', 'expires_in')
+    list_display_links = ('uid',)    
+    
+admin.site.register(UserToken, UserTokenAdmin)
 
