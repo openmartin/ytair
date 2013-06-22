@@ -67,10 +67,10 @@ def get_detail_AirPollutants(air_pollutants_list_hourly, air_pollutants_no):
 if __name__ == '__main__':
     get_authorize_url()
 
-#    SOMECODE = '3c06e6671b0f3c32b4626e4377bc34ed'
-#    get_access_token(SOMECODE)
-    uid = '1196520075'  #openmartin
-    userToken = UserToken.objects.get(pk='1196520075')
+    SOMECODE = 'bc60a19ac4b1bf309afd07d031bf32fc'
+    get_access_token(SOMECODE)
+    uid = '3225569841'  #openmartin
+    userToken = UserToken.objects.get(pk='3225569841')
     client.set_access_token(userToken.access_token, userToken.expires_in)
     
     #轴承厂
@@ -151,10 +151,10 @@ if __name__ == '__main__':
         weibo_txt = weibo_txt + pollutants_concen_txt
         #print weibo_txt
         
-        result = client.statuses.upload.post(status=weibo_txt,
-                                          #lat = sample_lantitude,
-                                          #long = sample_longitude,
-                                  pic=open(zcc_visibily.image_url, 'rb'))
+#         result = client.statuses.upload.post(status=weibo_txt,
+#                                           #lat = sample_lantitude,
+#                                           #long = sample_longitude,
+#                                   pic=open(zcc_visibily.image_url, 'rb'))
 
 
 

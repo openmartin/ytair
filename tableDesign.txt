@@ -17,6 +17,9 @@ AirQuality
 report_date date
 report_hour datetime
 aqi
+level
+level_str
+main_pollutants
 hourly
 daliy
 sample_longitude
