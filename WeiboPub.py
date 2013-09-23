@@ -27,7 +27,7 @@ APP_SECRET = '2c30096c3ae5fc8d235bd1afab7af926'      # app secret
 CALLBACK_URL = 'http://ytair.hotjoke.cc'  # callback url
 
 #能见图图片的Server
-URL_PRE = 'http://120.192.19.202:6600/Images/'
+URL_PRE = 'http://60.208.91.115:6600/Images/'
 
 
 client = APIClient(app_key=APP_KEY, app_secret=APP_SECRET,
@@ -44,11 +44,14 @@ def get_access_token(code):
     expires_in = r.expires_in      # token expires in
     client.set_access_token(access_token, expires_in)
     
+    print access_token
+    
     userToken = UserToken()
     userToken.uid = r.uid
     userToken.access_token = r.access_token
     userToken.expires_in = r.expires_in
     userToken.save()
+    
 
 air_pollutants_dict = {'NO2':'141', 'PM2.5':'132', \
                        'O3':'108', 'PM10':'107', \
@@ -65,11 +68,13 @@ def get_detail_AirPollutants(air_pollutants_list_hourly, air_pollutants_no):
     return a.poll_value
 
 if __name__ == '__main__':
-    get_authorize_url()
-
-    SOMECODE = 'bc60a19ac4b1bf309afd07d031bf32fc'
-    get_access_token(SOMECODE)
-    uid = '3225569841'  #openmartin
+    #url = get_authorize_url()
+    #print url
+    
+    #SOMECODE = 'aec9b9cd5b7093d2108636acc8bc5604'
+    #get_access_token(SOMECODE)
+    
+    uid = '3225569841'  #烟台占星
     userToken = UserToken.objects.get(pk='3225569841')
     client.set_access_token(userToken.access_token, userToken.expires_in)
     
