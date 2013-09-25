@@ -16,6 +16,7 @@ from datetime import datetime, date
 import urllib2
 from string import Template
 import pytz
+from baiduweather import BaiduWeather
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "airquality.settings")
 from airquality.models import AirPollutants, AirQuality, AirVisibily, UserToken
@@ -116,8 +117,16 @@ if __name__ == '__main__':
         print sample_lantitude
         print sample_longitude
         
-        weibo_template = u'#烟台##空气质量#采样点：$sample_locate，采样时间：$sample_time，空气质量$sample_aqi_des(AQI:$sample_aqi)，主要污染物为$sample_main_pollutants。'
+        #天气预报
+        baiduwea = BaiduWeather()
+        baiduwea.get_results(u'烟台')
+        weather =  baiduwea.get_weather()
+        
+        weibo_template = u'#烟台##天气#$today;$tomorrow#空气质量#采样点:$sample_locate,采样时间:$sample_time,空气质量$sample_aqi_des(AQI:$sample_aqi),主要污染物为$sample_main_pollutants。'
         td = dict()
+        td['today'] = weather[0]
+        td['tomorrow'] = weather[1]
+        
         td['sample_locate'] = sample_locate
         td['sample_time'] = sample_time
         td['sample_aqi_des'] = sample_aqi_des
@@ -137,7 +146,7 @@ if __name__ == '__main__':
             o3_concen = get_detail_AirPollutants(air_pollutants, air_pollutants_dict['O3'])*1000
             pm25_concen = get_detail_AirPollutants(air_pollutants, air_pollutants_dict['PM2.5'])*1000
             
-            pollutants_concen_template = u'各污染物浓度：二氧化硫(SO2)$so2_concenμg/m3、二氧化氮(NO2)$no2_concenμg/m3、可吸入颗粒物(PM10)$pm10_concenμg/m3、一氧化碳(CO)$co_concenμg/m3、臭氧(O3)$o3_concenμg/m3、细颗粒物(PM2.5)$pm25_concenμg/m3。'
+            pollutants_concen_template = u'各污染物:SO2 $so2_concenμg/m3,NO2 $no2_concenμg/m3,PM10 $pm10_concenμg/m3, CO $co_concenμg/m3, O3 $o3_concenμg/m3, PM2.5 $pm25_concenμg/m3.'
             
             ts = dict()
             ts['so2_concen'] = so2_concen
@@ -154,12 +163,12 @@ if __name__ == '__main__':
             pass
         
         weibo_txt = weibo_txt + pollutants_concen_txt
-        #print weibo_txt
+        print weibo_txt
         
-#         result = client.statuses.upload.post(status=weibo_txt,
-#                                           #lat = sample_lantitude,
-#                                           #long = sample_longitude,
-#                                   pic=open(zcc_visibily.image_url, 'rb'))
+        result = client.statuses.upload.post(status=weibo_txt,
+                                          #lat = sample_lantitude,
+                                          #long = sample_longitude,
+                                  pic=open(zcc_visibily.image_url, 'rb'))
 
 
 
